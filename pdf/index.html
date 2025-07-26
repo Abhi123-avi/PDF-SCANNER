@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Scanner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img id="logo" src="https://www.virustotal.com/static/images/favicon.png" alt="Logo">
+        <h1 class="description">Upload a PDF to scan it for malware using VirusTotal</h1>
+    </header>
+
+    <div class="background-img">
+        <div class="container">
+            <div id="dropArea" class="drop-area">
+                <p class="click-to-upload">Click or Drop PDF Here</p>
+                <input type="file" id="fileInput" accept="application/pdf">
+                <div id="fileNameDisplay"></div>
+            </div>
+
+            <button id="checkFileBtn">Scan File</button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
