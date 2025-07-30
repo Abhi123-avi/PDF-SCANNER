@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2b5797;
+    /* VirusTotal blue */
+}
+
+
+.background-img {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    text-align: center;
+}
+
+.drop-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    max-width: 300px;
+}
+
+.click-to-upload {
+    font-weight: bold;
+    /* Make the text bold */
+    text-decoration: underline;
+    /* Underline the text */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+}
+
+.drop-text {
+    margin: 0;
+}
+
+.drop-area input {
+    display: none;
+}
+
+#checkBtn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#checkBtn:hover {
+    background-color: #45a049;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Header styles */
+header {
+    text-align: center;
+}
+
+#logo {
+    width: 100px;
+    /* Adjust size as needed */
+    height: 100px;
+    /* Adjust size as needed */
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.modal-content {
+    background-color: #100101;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    color: green;
+    /* Set font color to green */
+}
+
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#fileNameDisplay {
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    /* Set font color to white */
+}
+
+
+#checkFileBtn {
+    display: block;
+    margin: 20px auto;
+    /* Center the button */
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#checkFileBtn:hover {
+    background-color: #45a049;
+    /* Darker green background on hover */
+}
+
+#fileInfo {
+    margin-top: 10px;
+    font-weight: bold;
+}
